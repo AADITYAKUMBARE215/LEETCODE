@@ -1,14 +1,30 @@
 # 🧠 DSA Practice – LeetCode
 
-This repository contains my solutions to **Data Structures and Algorithms (DSA)** problems, primarily from **LeetCode**. The goal is to strengthen problem-solving skills, improve coding efficiency, and build a solid foundation in core computer science concepts.
+This repository contains my **Data Structures and Algorithms (DSA)** solutions, primarily from **LeetCode**, implemented in **C++**.
+
+The goal of this repository is to strengthen problem-solving skills, improve coding efficiency, master common algorithmic patterns, and build a solid foundation in core computer science concepts.
+
+---
+
+## 🎯 About
+
+Every accepted LeetCode solution is converted into a **locally runnable C++ program** and follows a consistent structure that includes:
+
+- Clean and readable implementation
+- Brief approach explanation
+- Time complexity analysis
+- Space complexity analysis
+- `main()` function for local testing
+
+The repository is organized topic-wise for quick revision and easy navigation.
 
 ---
 
 ## 📂 Folder Structure
 
-Problems are organized topic-wise for easier navigation and revision.
+Problems are organized by topic for better learning and revision.
 
-```
+```text
 LEETCODE/
 ├── ARRAYS
 ├── BACKTRACKING
@@ -29,37 +45,58 @@ LEETCODE/
 └── TWO_POINTERS
 ```
 
-Each folder contains clean and structured **C++ implementations** of the corresponding problems.
+---
+
+## 📚 Topics Covered
+
+- Arrays
+- Strings
+- Linked Lists
+- Stack
+- Queue
+- Sliding Window
+- Two Pointers
+- Binary Search
+- Trees
+- Graphs
+- Dynamic Programming
+- Greedy
+- Backtracking
+- Hashing
+- Bit Manipulation
+- Math
 
 ---
 
 ## 🛠️ Language Used
 
-* **C++**
+- **C++**
 
 ---
 
-## ✨ Problem Solving Approach
+## 💡 Coding Style
 
-* Focus on writing clean and readable code.
-* Optimize for time and space complexity whenever possible.
-* Learn and implement efficient approaches.
-* Maintain consistency in coding style and documentation.
-* Convert accepted LeetCode solutions into locally runnable programs.
+Every solution follows a consistent coding style:
+
+- Clean and readable C++ code
+- Meaningful variable names
+- Optimal or near-optimal approach
+- Time & Space Complexity analysis
+- Locally runnable implementation with `main()`
 
 ---
 
 ## 📌 Solution Format
 
-Each solution follows a standard naming convention:
+Each solution follows the naming convention:
 
-```
+```text
 <leetcode_number>_<problem_name>.cpp
 ```
 
 Examples:
 
-```
+```text
 1_two_sum.cpp
 7_reverse_integer.cpp
 560_subarray_sum_equals_k.cpp
@@ -67,11 +104,11 @@ Examples:
 
 Each solution includes:
 
-* Problem reference
-* Brief approach explanation
-* Time complexity analysis
-* Space complexity analysis
-* Locally runnable `main()` function for testing
+- Problem reference
+- Approach explanation
+- Time Complexity
+- Space Complexity
+- Locally runnable `main()` function
 
 ---
 
@@ -79,41 +116,66 @@ Each solution includes:
 
 Commits follow a consistent format:
 
-```
+```text
 <Category>: Add <problem name> solution (LC <problem_number>)
 ```
 
 Examples:
 
-```
-Arrays: Add next permutation solution (LC 31)
-Hashing: Add subarray sum equals k solution (LC 560)
-Binary Search: Add search in rotated sorted array solution (LC 33)
+```text
+Arrays: Add Next Permutation solution (LC 31)
+Hashing: Add Subarray Sum Equals K solution (LC 560)
+Binary Search: Add Search in Rotated Sorted Array solution (LC 33)
+Trees: Add Binary Tree Level Order Traversal solution (LC 102)
 ```
 
 ---
 
 ## 🎯 Goals
 
-* Strengthen DSA fundamentals.
-* Improve logical thinking and problem-solving skills.
-* Build consistency through regular practice.
-* Prepare for coding assessments and technical interviews.
-* Create a well-organized repository for future revision.
+- Strengthen DSA fundamentals.
+- Develop strong algorithmic thinking.
+- Master common interview patterns.
+- Improve problem-solving skills through consistent practice.
+- Prepare for coding interviews and online assessments.
+- Build a well-organized repository for future revision.
 
 ---
 
 ## 📈 Progress
 
-* ✅ Solving LeetCode problems consistently.
-* ✅ Organizing solutions topic-wise.
-* ✅ Documenting approaches and complexities.
-* 🔄 Continuously updating the repository as I learn new concepts and techniques.
+- ✅ Solving LeetCode problems consistently.
+- ✅ Organizing solutions topic-wise.
+- ✅ Converting accepted solutions into locally runnable C++ programs.
+- ✅ Maintaining consistent coding style and documentation.
+- 🔄 Continuously updating the repository with new problems and optimized solutions.
+
+---
+
+## 🚀 Roadmap
+
+- [x] Arrays
+- [x] Strings
+- [x] Linked Lists
+- [x] Stack
+- [x] Queue
+- [x] Sliding Window
+- [x] Two Pointers
+- [x] Binary Search
+- [x] Trees
+- [ ] Tries
+- [ ] Segment Trees
+- [ ] Advanced Graph Algorithms
+- [ ] Advanced Dynamic Programming
 
 ---
 
 ## 📎 Note
 
-This repository represents my ongoing learning journey in Data Structures and Algorithms. Solutions may evolve over time as I discover better approaches and optimizations.
+This repository represents my ongoing learning journey in Data Structures and Algorithms.
 
-Feel free to explore the repository for reference, revision, or learning purposes.
+As I continue solving new problems and learning better techniques, existing solutions may also be updated to improve readability, efficiency, and adherence to best coding practices.
+
+Feel free to explore the repository for learning, revision, or reference purposes.
+
+⭐ If you find this repository helpful, consider giving it a star!
